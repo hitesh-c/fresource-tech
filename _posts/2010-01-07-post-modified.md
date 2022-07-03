@@ -7,13 +7,15 @@ tags:
   - Post Formats
   - readability
   - standard
+
 defaults:
   # _docs
   - scope:
       path: ""
-      type: docs
+      type: posts
     values:
       sidebar:
+        author_profile: false
         nav: "docs"  
 ---
 
