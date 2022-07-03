@@ -7,6 +7,14 @@ tags:
   - Post Formats
   - readability
   - standard
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"  
 ---
 
 This post has been updated and should show a modified date if used in a layout.
